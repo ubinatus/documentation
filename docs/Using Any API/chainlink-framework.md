@@ -93,7 +93,7 @@ API reference for <a href="https://github.com/smartcontractkit/chainlink/blob/ma
 [block:parameters]
 {
   "data": {
-    "0-0": "**<a href=\"#LINK\">LINK</a>**",
+    "0-0": "**<a href=\"#link\">LINK</a>**",
     "0-1": "Helper uint256 to represent the divisibility of a LINK token. Equivalent to 10^18",
     "h-0": "Name",
     "h-1": "Description"

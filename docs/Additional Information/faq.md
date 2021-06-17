@@ -108,7 +108,7 @@ Resources:
 
 You can use our <a href="https://blog.chain.link/how-to-use-chainlink-with-truffle-2/" target="_blank">Truffle Box</a> to get started by unboxing a developer-focused template.
 
-If you already have a project started and would like to integrate Chainlink, you can [add Chainlink to your existing project](../create-a-chainlinked-project/#add-chainlink-to-your-existing-project) by using our `chainlink` NPM package.
+If you already have a project started and would like to integrate Chainlink, you can [add Chainlink to your existing project](../create-a-chainlinked-project/#install-into-existing-projects) by using our `chainlink` NPM package.
 
 Resources:
 *  [Create a Chainlinked Project](../create-a-chainlinked-project/) 

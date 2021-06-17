@@ -6,9 +6,9 @@ permalink: "docs/glossary/"
 ---
 ### Adapter
 
-An Adapter is a piece of software responsible for executing a specific piece of functionality. A Chainlink node comes with a number of Adapters built in, commonly known as Core Adapters, but can also be extended via [Bridges](./#bridge) to connect with user defined [External Adapters](./#external-adapter). Core Adapters offered by the Chainlink Node by default:
+An Adapter is a piece of software responsible for executing a specific piece of functionality. A Chainlink node comes with a number of Adapters built in, commonly known as Core Adapters, but can also be extended via [Bridges](/docs/node-operators) to connect with user defined [External Adapters](./#external-adapter). Core Adapters offered by the Chainlink Node by default:
 
-- [Bridge](/docs/adapters/#bridge)
+- [Bridge](/docs/node-operators)
 - [Copy](/docs/adapters/#copy)
 - [EthBytes32](/docs/adapters/#ethbytes32)
 - [EthInt256](/docs/adapters/#ethint256)
@@ -91,7 +91,7 @@ Entity which connects computations on blockchains with off-chain resources. Typi
 
 ### Oracle Contract
 
-The on-chain component of an [Oracle](#oracle). The Oracle Contract is the interface through which [Consuming Contracts](#consumer-contract-) pass and receive data with off-chain resources.
+The on-chain component of an [Oracle](#oracle). The Oracle Contract is the interface through which [Consuming Contracts](#consumer-contract) pass and receive data with off-chain resources.
 
 ### Oracle Node
 
@@ -99,7 +99,7 @@ The off-chain component of an [Oracle](#oracle).
 
 ### Requester
 
-A Smart Contract or Externally Owned Account which requests data from an [Oracle](#oracle). The Requester does not have to be the same entity as the [Consumer](#consumer-contract-) but commonly is the same.
+A Smart Contract or Externally Owned Account which requests data from an [Oracle](#oracle). The Requester does not have to be the same entity as the [Consumer](#consumer-contract) but commonly is the same.
 
 ### Request Parameters
 
@@ -111,7 +111,7 @@ Short-hand for a [Job Run](#job-run), sometimes a [Task Run](#task-run).
 
 ### Run Result
 
-A Run Result is the result of executing a [Job Spec](#job-spec) or [Task Spec](#task-spec). A Run Result is made up of a JSON blob, a [Run Status](#run-status), and an optional error field. Run Results are stored on [Job Runs](#job-run) and [Task Runs](#task-runs).
+A Run Result is the result of executing a [Job Spec](#job-spec) or [Task Spec](#task-spec). A Run Result is made up of a JSON blob, a [Run Status](#run-status), and an optional error field. Run Results are stored on [Job Runs](#job-run) and [Task Runs](#task-run).
 
 ### Run Status
 
