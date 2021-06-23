@@ -13,3 +13,14 @@ jobs:
         run: yarn
       - name: Build
         run: yarn build
+      - name: Serve
+        run: yarn serve-background
+      - name: Check docs links with linkcheck
+        uses: filiph/linkcheck@v2.0.15+1
+        with:
+          arguments: :4200
+      - name: Check chain.link with linkcheck
+        uses: filiph/linkcheck@v2.0.15+1
+        with:
+          arguments: https://chain.link
+      
